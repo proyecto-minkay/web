@@ -1,0 +1,58 @@
+
+.boton-fixed {
+    width: 210px;
+    background: rgba( 0, 141, 255, 0.4);
+    z-index: 10000;
+    position: fixed;
+    top: 35%;
+    right: -138px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-radius-topleft: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: #fff;
+    padding: 14px 15px;
+}
+
+.boton-fixed a {
+  width: auto;
+  height: auto;
+}
+
+.boton-fixed a .l-ws {
+  display: inline-block;
+  width: 35%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.boton-fixed a .l-ws img {
+   width: 42px;
+   height: auto;
+}
+
+.boton-fixed a .r-ws {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+}
+
+.boton-fixed a .r-ws h6{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.boton-fixed a .r-ws h6 span{
+ display: block;
+}
+
+.boton-fixed:hover {
+    right: 0;
+}
